@@ -1,7 +1,5 @@
 #!name=不万能的模块
-#!desc=包含配置、分流规则、重写规则及脚本。
-#!author=SolSeaGa
-#!homepage=https://github.com/SolSeaGa
+#!desc=重定向 Google 在中国废弃的搜索引擎域名。
 #!category=SolSeaGa's LAB
 
 [URL Rewrite]
