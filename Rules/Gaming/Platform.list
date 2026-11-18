@@ -516,9 +516,6 @@ DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
 ## > Steam
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,steam-api.com
 DOMAIN-SUFFIX,steam-chat.com
