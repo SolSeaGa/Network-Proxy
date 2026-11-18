@@ -33,12 +33,23 @@ show-error-page = true
 show-error-page-for-reject = true
 # UDP 退回行为（当节点不支持 UDP 时直接拒绝，防止数据泄露）
 udp-policy-not-supported-behaviour = reject
+ipv6 = false
+ipv6-vif = disabled
 
 [Ponte]
 server-proxy-name= HK
 client-proxy-name= HK
 
 [Rule]
+# 临境 Liminal EA
+DOMAIN-SUFFIX,***,Film
+DOMAIN-SUFFIX,***,Film
+DOMAIN-SUFFIX,***,Film
+# 墨云阁 MoYunGe
+DOMAIN-SUFFIX,***,Film
+# 临境 Liminal 302
+IP-CIDR,***,DIRECT,no-resolve
+
 # 广告拦截
 DOMAIN-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/AD-Blocking.list,REJECT
 
@@ -86,3 +97,5 @@ FINAL,Final,dns-failed
 [MITM]
 skip-server-cert-verify = true
 h2 = true
+ca-passphrase = ***
+ca-p12 = ***
