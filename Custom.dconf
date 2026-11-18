@@ -39,10 +39,16 @@ server-proxy-name= HK
 client-proxy-name= HK
 
 [Rule]
+# 广告拦截
+DOMAIN-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/AD-Blocking.list,REJECT
+
 # 人工智能
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Intelligence/AI-China.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Intelligence/AI-Google.list,JP
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Intelligence/AI.list,Intelligence
+# Apple Inc.
+RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Corporation/Apple-APNS.list,APNs
+RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Corporation/Apple.list,Apple
 
 # 游戏规则
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Gaming/Platform.list,Gaming
@@ -58,12 +64,9 @@ RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/mai
 
 # 国际流媒体
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/GlobalMedia.list,Streaming
-# Apple
-RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Corporation/Apple-APNS.list,APNs
-RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Corporation/Apple.list,Apple
-# Google
+# Google LLC
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Corporation/Google.list,Proxy
-# Microsoft
+# Microsoft Corporation
 RULE-SET,https://raw.githubusercontent.com/SolSeaGa/Network-Proxy/refs/heads/main/Rules/Corporation/Microsoft.list,DIRECT
 
 # 国内 / 国外规则
