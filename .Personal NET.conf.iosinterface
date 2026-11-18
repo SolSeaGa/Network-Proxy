@@ -1,25 +1,25 @@
 {"policyGroupSettings":{
 	"<internal-placeholder-global>":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Astrology::Fire","cardBackgroundColor":"#FF375F","coloredIcon":"B1::Network::Centralized Network","icon":"B1::Network::Centralized Network"},
-	
+
 	"Proxy":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Astrology::Fire","cardBackgroundColor":"#FF4245"},
 	"Final":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Industry::Water","cardBackgroundColor":"#FF4245"},
-	
+
 	"Apple":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Plants::Bitten Apple","cardBackgroundColor":"#30D158"},
 	"APNs":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Farming::Apple","cardBackgroundColor":"#30D158"},
-	
+
 	"Streaming":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Music::Disco Ball","cardBackgroundColor":"#FF9230"},
-	"Cinema":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Music::Disco Ball","cardBackgroundColor":"#FF9230"},
-	
+	"Film":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Music::Disco Ball","cardBackgroundColor":"#FF9230"},
+
 	"Gaming":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Gaming::Game Controller","cardBackgroundColor":"#0091FF"},
 	"Intelligence":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Science::Artificial Intelligence","cardBackgroundColor":"#0091FF"},
-	
+
 	"HK":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Maps::World Map(3)","cardBackgroundColor":"#8E8E93"},
 	"TW":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Maps::World Map(3)","cardBackgroundColor":"#8E8E93"},
 	"JP":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Maps::World Map(3)","cardBackgroundColor":"#8E8E93"},
 	"SG":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Maps::World Map(3)","cardBackgroundColor":"#8E8E93"},
 	"US":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Maps::World Map(3)","cardBackgroundColor":"#8E8E93"},
 	"Edge":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Maps::World Map(3)","cardBackgroundColor":"#8E8E93"},
-	
+
 	"InBox":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Messaging::Inbox(5)","cardBackgroundColor":"#FFD600"},
 	"AnyTLS":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Messaging::Inbox(5)","cardBackgroundColor":"#FFD600"}
 
