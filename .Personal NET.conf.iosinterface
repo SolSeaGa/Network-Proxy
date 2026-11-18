@@ -4,8 +4,8 @@
 	"Proxy":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Astrology::Fire","cardBackgroundColor":"#FF4245"},
 	"Final":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Industry::Water","cardBackgroundColor":"#FF4245"},
 
-	"Apple":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Plants::Bitten Apple","cardBackgroundColor":"#30D158"},
 	"APNs":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Farming::Apple","cardBackgroundColor":"#30D158"},
+	"Apple":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Plants::Bitten Apple","cardBackgroundColor":"#30D158"},
 
 	"Streaming":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Music::Disco Ball","cardBackgroundColor":"#FF9230"},
 	"Film":{"cardBackgroundIdx":0,"autoColoredIcon":"B1::Music::Disco Ball","cardBackgroundColor":"#FF9230"},
